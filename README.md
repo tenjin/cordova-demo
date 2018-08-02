@@ -11,7 +11,11 @@ Clone the project
 Install the Tenjin plugin
 
     cd cordova-demo
-    cordova plugin add cordova-plugin-tenjin --variable TENJIN_API_KEY=<YOUR API KEY HERE>
+    cordova plugin add cordova-plugin-tenjin
+
+Edit [www/js/index.js](www/js/index.js) and update apiKey.
+
+    let apiKey = "REPLACE_WITH_YOUR_API_KEY";
 
 For Android
 
